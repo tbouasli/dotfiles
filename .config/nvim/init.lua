@@ -1,1 +1,3 @@
-print("teste")
+require('bootstrap')
+require('plugins')
+require('mappings')
