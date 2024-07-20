@@ -1,8 +1,3 @@
 [user]
     name = Thomas Bouasli 
-
-[includeIf "gitdir:~/work/"]
-    path = ~/work/.gitconfig
-
-[includeIf "gitdir:~/personal/"]
-    path = ~/personal/.gitconfig
+    email = thomas.bouasli@gmail.com
