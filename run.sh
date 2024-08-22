@@ -5,4 +5,4 @@ if ! command -v stow &> /dev/null; then
 fi
 
 stow -t $HOME . --adopt
-git restore .
+#git restore .
