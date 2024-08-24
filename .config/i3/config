@@ -187,4 +187,4 @@ bar {
 
 # Picom
 exec_always --no-startup-id picom &
-
+exec feh --bg-scale ~/Pictures/Wallpaper/bg.png
