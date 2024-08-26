@@ -38,6 +38,7 @@ return {
             { "<leader>f",  group = "find" },
             { "<leader>ff", builtin.find_files,           desc = "Find File",            mode = "n" },
             { "<leader>fg", builtin.live_grep,            desc = "Grep",                 mode = "n" },
+	    { "<leader>fr", builtin.resume,               desc = "Resume Search",        mode = 'n' },
             { "<leader>dl", builtin.diagnostics,          desc = "Document Diagnostics", mode = "n" },
             { "<leader>fh", builtin.help_tags,            desc = "Help Tags",            mode = "n" },
             { "<leader>g",  group = "go to" },

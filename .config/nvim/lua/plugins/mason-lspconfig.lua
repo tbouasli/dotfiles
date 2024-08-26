@@ -6,6 +6,10 @@ return {
                 "rust_analyzer",
                 "tsserver",
                 "gopls",
+		"tailwindcss-language-server",
+	 	"terraform-ls",
+		"tflint",
+		"tfsec",
             },
         }
     end,
