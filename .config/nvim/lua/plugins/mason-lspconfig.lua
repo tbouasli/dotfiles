@@ -6,6 +6,9 @@ return {
                 "rust_analyzer",
                 "tsserver",
                 "gopls",
+				"prismals",
+				"tailwindcss",
+				"ansiblels",
             },
         }
     end,
