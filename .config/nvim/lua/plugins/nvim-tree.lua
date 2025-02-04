@@ -6,7 +6,16 @@ return {
       "nvim-tree/nvim-web-devicons",
     },
     config = function()
-      require("nvim-tree").setup {}
+      require("nvim-tree").setup {
+			filters = {
+				dotfiles = false,
+			},
+			git = {
+				enable = true,
+				timeout = 500,
+			}
+
+	  }
       local api = require("nvim-tree.api")
       local wk = require("which-key")
 

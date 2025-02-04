@@ -22,7 +22,12 @@ return {
             capabilities = capabilities,
         }
 
-        require'lspconfig'.tsserver.setup{
+		require'lspconfig'.buf_ls.setup{
+			on_attach = on_attach,
+			capabilities = capabilities,
+		}
+
+        require'lspconfig'.ts_ls.setup{
             on_attach = on_attach,
             capabilities = capabilities,
         }
@@ -38,6 +43,11 @@ return {
 		}
 
 		require'lspconfig'.tailwindcss.setup{
+			on_attach = on_attach,
+			capabilities = capabilities,
+		}
+
+		require'lspconfig'.astro.setup{
 			on_attach = on_attach,
 			capabilities = capabilities,
 		}

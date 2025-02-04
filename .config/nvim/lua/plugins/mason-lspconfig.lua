@@ -4,7 +4,8 @@ return {
         require("mason-lspconfig").setup{
             ensure_installed = {
                 "rust_analyzer",
-                "tsserver",
+                "ts_ls",
+				"buf_ls",
                 "gopls",
 				"prismals",
 				"tailwindcss",

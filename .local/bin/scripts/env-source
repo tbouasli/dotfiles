@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -o allexport
+source "$(find . -maxdepth 1 -type f -name ".env*" ! -name ".env.example" | fzf)"
+set +o allexport
