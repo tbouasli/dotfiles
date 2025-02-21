@@ -32,6 +32,31 @@ return {
             capabilities = capabilities,
         }
 
+        require'lspconfig'.cssls.setup{
+            on_attach = on_attach,
+            capabilities = capabilities,
+        }
+
+		require'lspconfig'.html.setup{
+			on_attach = on_attach,
+			capabilities = capabilities,
+		}
+
+		require'lspconfig'.htmx.setup{
+			on_attach = on_attach,
+			capabilities = capabilities,
+		}
+
+		require'lspconfig'.jsonls.setup{
+			on_attach = on_attach,
+			capabilities = capabilities,
+		}
+
+		require'lspconfig'.tsserver.setup{
+			on_attach = on_attach,
+			capabilities = capabilities,
+		}
+
         require'lspconfig'.gopls.setup{
             on_attach = on_attach,
             capabilities = capabilities,
@@ -48,6 +73,11 @@ return {
 		}
 
 		require'lspconfig'.astro.setup{
+			on_attach = on_attach,
+			capabilities = capabilities,
+		}
+
+		require'lspconfig'.biome.setup{
 			on_attach = on_attach,
 			capabilities = capabilities,
 		}

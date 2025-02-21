@@ -52,3 +52,10 @@ eval $(thefuck --alias)
 
 bindkey -s '^f' 'tmux-sessionizer\n'
 bindkey -s '^g' 'tmux-sessionizer ~/.dotfiles\n'
+# pnpm end
+
+# Aliases
+
+alias air='~/.air'
+# Add .NET Core SDK tools
+export PATH="$PATH:/home/bouasli/.dotnet/tools"
